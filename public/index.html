@@ -4,9 +4,55 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+        <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet">
         <title>Aboa Turku</title>
+        <style type="text/css">
+            body {
+                font-family: 'Oswald', sans-serif;
+                background: rgba(255,255,255,1);
+                background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(229,231,255,1) 100%);
+                background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(229,231,255,1)));
+                background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(229,231,255,1) 100%);
+                background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(229,231,255,1) 100%);
+                background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(229,231,255,1) 100%);
+                background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(229,231,255,1) 100%);
+            }
+            .main {
+                height: 100vh;
+                width: 100vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .logo {
+                height: 80vh;
+            }
+            @keyframes float {
+                0% {
+                    transform: translateY(-52vh) rotate(-25deg);
+                }
+                50% {
+                    transform: translateY(-53vh) rotate(-25deg);
+                }
+                100% {
+                    transform: translateY(-52vh) rotate(-25deg);
+                }
+            }
+            .comingsoon {
+                transform: translateY(-52vh) rotate(-25deg);
+                font-size: calc(30px + 5vh);
+                color: #f5f5f5;
+                text-shadow: 6px 2px 2px rgba(30, 30, 30, 0.3);
+                animation: float 6s ease-in-out infinite;
+            }
+        </style>
     </head>
     <body>
-        <div>Coming soon...</div>
+        <header class="main">
+                <img class="logo" src="/logo.svg" alt="Aboa" />
+                <div class="comingsoon">Coming soon</div>
+        </header>
     </body>
 </html>
