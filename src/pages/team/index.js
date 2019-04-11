@@ -60,7 +60,7 @@ export const pageQuery = graphql`
             name
             profilePicture {
               childImageSharp {
-                fluid(maxWidth: 400, maxHeight: 500) {
+                fluid(maxWidth: 400, maxHeight: 500, cropFocus: NORTH) {
                   ...GatsbyImageSharpFluid
                 }
               }
