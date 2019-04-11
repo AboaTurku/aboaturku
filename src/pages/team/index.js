@@ -17,7 +17,7 @@ const TeamPage = ({data: {allMarkdownRemark: {edges}}}) => {
                         </h2>
                         <p>
                           The Aboa team is comprised of studets of several disciplines. We are enthusiastic about participating in research
-                          to develop the next generation of biotechnical innovation.
+                          to develop the next generation of biotechnical innovation. See you at iGEM 2019!
                         </p>
                     </div>
                 </div>
