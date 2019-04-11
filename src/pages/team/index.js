@@ -16,7 +16,7 @@ const TeamPage = ({data: {allMarkdownRemark: {edges}}}) => {
                             Aboa Team
                         </h2>
                         <p>
-                          The Aboa team is comprised of studets of several disciplines. We are enthusiastic about participating in research
+                          The Aboa team is comprised of students of several disciplines. We are enthusiastic about participating in research
                           to develop the next generation of biotechnical innovation.
                         </p>
                     </div>
