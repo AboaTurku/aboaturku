@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import Content from '../components/Content'
+import './profile.sass'
 
 const ProfileCard = ({ name, description, profilePicture, renderComponent }) => {
     const RenderComponent = renderComponent || Content
