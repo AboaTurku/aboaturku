@@ -53,3 +53,4 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Logo", name: "logo", widget: "image"}
       - {label: "Link", name: "link", widget: "string"}
+      - {label: "Sort Order", name: "sortorder", widget: "number", default: 1, valueType: "int"}
