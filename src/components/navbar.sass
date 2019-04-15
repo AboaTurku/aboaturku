@@ -1,4 +1,7 @@
 @import "colors.sass"
 .navbar-menu
     .navbar-item[aria-current="page"]
-        box-shadow: 0 2px 0 0 $aboa-orange;
+        @media screen and (min-width: 1088px)
+            box-shadow: 0 2px 0 0 $aboa-orange;
+        @media screen and (max-width: 1087px)
+            color: $aboa-orange;
