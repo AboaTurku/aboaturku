@@ -2,18 +2,31 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 
-const PreviewCompatibleImage = ({ imageInfo, style }) => {
+const PreviewCompatibleImage = ({ imageInfo, style, fixed }) => {
+  const isFixed = fixed || false
   const imageStyle = style || { borderRadius: '5px' }
   const { alt = '', childImageSharp, image } = imageInfo
 
   if (!!image && !!image.childImageSharp) {
-    return (
-      <Img style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} />
-    )
+    if (isFixed) {
+      return (
+        <Img style={imageStyle} fixed={image.childImageSharp.fixed} alt={alt} />
+      )
+    } else {
+      return (
+        <Img style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} />
+      )
+    }
   }
 
   if (!!childImageSharp) {
-    return <Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} />
+    if (isFixed) {
+      return (
+        <Img style={imageStyle} fixed={childImageSharp.fixed} alt={alt} />
+      )
+    } else {
+      return <Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} />
+    }
   }
 
   if (!!image && typeof image === 'string')

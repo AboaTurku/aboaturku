@@ -41,3 +41,15 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Profile picture", name: "profilePicture", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "partner"
+    label: "Partner"
+    folder: "src/partners"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    identifier_field: name
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "partner"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Logo", name: "logo", widget: "image"}
+      - {label: "Link", name: "link", widget: "string"}

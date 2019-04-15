@@ -10,7 +10,7 @@ exports.createPages = ({ actions, graphql }) => {
     {
       allMarkdownRemark(
         limit: 1000
-        filter: { frontmatter: { templateKey: { ne: "profile" } }}
+        filter: { frontmatter: { templateKey: { nin: ["profile", "partner"] } }}
         ) {
         edges {
           node {

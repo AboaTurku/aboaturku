@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/textlogo.png'
+import './navbar.sass'
 
 const Navbar = class extends React.Component {
 
@@ -45,7 +46,7 @@ const Navbar = class extends React.Component {
       </div>
       <div id="navMenu" className="navbar-menu">
       <div className="navbar-start has-text-centered">
-      <Link className="navbar-item" to="/blog">
+        <Link className="navbar-item" to="/blog">
           Blog
         </Link>
         <Link className="navbar-item" to="/about">
@@ -53,6 +54,9 @@ const Navbar = class extends React.Component {
         </Link>
         <Link className="navbar-item" to="/team">
           Team
+        </Link>
+        <Link className="navbar-item" to="/partners">
+          Partners
         </Link>
       </div>
       </div>
