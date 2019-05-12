@@ -2,7 +2,7 @@
 templateKey: partner
 name: Nucleus
 logo: /img/nucleuksen-logo.png
-link: www.nucleus.fi
+link: 'https://nucleus.fi'
 sortorder: 5
 ---
 
