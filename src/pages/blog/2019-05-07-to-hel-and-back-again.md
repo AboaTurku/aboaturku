@@ -12,4 +12,6 @@ When we reached Helsinki, our first task was to find Helsinki University library
 
 ![Fanni and water](/img/helsinkimeeting_pic1.png "Fanni is enjoying the views at the Clarion Hotel sky bar")
 
+**Fanni is enjoying the views at the Clarion Hotel sky bar**
+
 After the formal stuff was over, we headed to the city for a small sight seeing in the Clarion Hotel sky bar. They had great drinks and we could see the whole city from there! Then we continued to Manala restaurant and had tasty pizza and burgers and got to know each other in a relaxed environment. The late night continued at a bar where we had some more to drink and had a blast. After a long day we stayed at a hotel in the city center for a much needed sleep.
