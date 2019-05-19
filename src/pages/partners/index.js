@@ -57,10 +57,11 @@ export const pageQuery = graphql`
             name
             logo {
                 childImageSharp {
-                    fixed(height: 200) {
+                    fixed(width: 200) {
                     ...GatsbyImageSharpFixed
                     }
                 }
+                publicURL
             }
             link
           }
