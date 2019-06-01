@@ -1,5 +1,5 @@
 ---
-templateKey: project-page
+templateKey: content-page
 title: Project 2019
 ---
 ### Project 2019

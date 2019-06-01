@@ -70,8 +70,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
-
-/*
-
-*/

@@ -5,11 +5,11 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import '../components/about.sass'
 
-export const ProjectPageTemplate = ({ title, content, contentComponent }) => {
+export const ContentPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
-    <section className="section section--gradient project-page">
+    <section className="section section--gradient content-page">
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -26,18 +26,18 @@ export const ProjectPageTemplate = ({ title, content, contentComponent }) => {
   )
 }
 
-ProjectPageTemplate.propTypes = {
+ContentPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const ProjectPage = ({ data }) => {
+const ContentPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <ProjectPageTemplate
+      <ContentPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -46,14 +46,14 @@ const ProjectPage = ({ data }) => {
   )
 }
 
-ProjectPage.propTypes = {
+ContentPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default ProjectPage
+export default ContentPage
 
-export const projectPageQuery = graphql`
-  query ProjectPage($id: String!) {
+export const contentPageQuery = graphql`
+  query ContentPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

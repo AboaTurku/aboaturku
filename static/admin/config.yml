@@ -33,7 +33,14 @@ collections:
         label: "Projects"
         name: "projects"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "content-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/support/index.md"
+        label: "Support Us"
+        name: "support"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "content-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
 
