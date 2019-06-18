@@ -6,65 +6,39 @@ title: Project 2019
 
 <html>
 
-
-
 <div class="column full_size">
 
 <h1>Immobilizing antibodies in correct orientation </h1>
 
 <h2>Expanding genetic code</h2>
 
-
-
 <p>Immunoassays are vastly used tools to help diagnosing and managing diseases as well as to detect toxins in the environment. The pregnancy test may be one of the most known example of such tool, which detects human chorionic gonadotropin, a hormone produced by the placenta.</p>
-
-
 
 <p>Immunoassays are based on the specific detection ability of antibodies. Usually, a immobilized capture antibody is used to bind an antigen of interest onto a surface from where a dye labeled antibody, which also binds to the same analyte allowing the visual detection of it. However with currently traditional technologies to immobilize the binding antibodies leads to a “mess”, where the antibodies are randomly attached to the test surface hindering their ability to bind the antigens. <a href="https://avs.scitation.org/doi/10.1116/1.4978435"> 1 </a> (Fig 1)
 
 </p>
 
-
-
-
-
 <img src="https://2019.igem.org/wiki/images/8/8d/T--Aboa--mess_of_antibodies_Des_060619.jpeg" style="width:285px;height:197px;">
-
-
 
 <p><i><b>Figure 1.</b> Randomly immobilized binder antibodies on a test surface. When the binder antibodies are immobilized randomly not all of them can bind their analytes, because the paratopes are blocked. Modified from <a href="https://avs.scitation.org/doi/10.1116/1.4978435"> 1 </a>.</i> </p>
 
 </div>
 
-
-
 <div class="column two_thirds_size" >
-
-
 
 <p>To increase the sensitivity of the immunoassays, we are going to coat a test surface with as many antibodies as possible that are positioned correctly to increase the amount of bound antigens. In order to achieve this, we are going to site-specifically modify the binder antibodies using expanded genetic code to incorporate a noncanonical amino acid (ncAA) into the tail of the antibody <a href="https://www.nature.com/articles/nature24031"> 2 </a>. </p>
 
-
-
-
-
 <p> To add an additional amino acid into the antibody, we are going to utilize the amber stop codon (TAG or UAG), by adding it into the sequence of the antibody, and expressing into a host that has all its amber codons replaced with other stop codons in its whole genome. As the ncAA to insert into the antibody we are going to use p-Azido-L-phenylalanine, which is known to rapidly react with an alkyne group forming a covalent bond <a href=https://pubs.rsc.org/en/content/articlelanding/2013/AN/c2an36787d#!divAbstract"> 3 </a>. (Fig 2) Because this reaction is also bio-orthogonal, it does not occur between any natural groups present in the protein or the organism <a href=https://pubs.acs.org/doi/10.1021/cb4009292"> 4 </a>. </p>
-
-
 
 <img src="https://2019.igem.org/wiki/images/9/98/T--Aboa--oriented_antibodies_Des_060619.jpeg" style="width:285px;height:197px;">
 
-
-
 <p><i><b>Figure 2.</b> Site specifically orientated binder antibodies. Because the azide group of the p-azido-L-phenylalanine reacts bio-orthogonally with an alkyne group forming a covalent bond, the antibody with the amino acid in its tail is forced on tail-on position allowing the paratopes to interact with the analytes. Modified from figure <a href=https://pubs.rsc.org/en/content/articlelanding/2013/AN/c2an36787d#!divAbstract"> 3 </a>.</i></p>
+
+
 
 </div>
 
-
-
-<div class="column third_size" >
-
-<div class="highlight decoration_A_full">
+<div class="info box">
 
 <h3>Expanded genetic code</h3>
 
@@ -72,13 +46,11 @@ title: Project 2019
 
 <p>This includes replacing a desired codon throughout the genome with an analogous codon and adding an aminoacyl-tRNA synthetase recognizing the replaced codon to be able to introduce a ncAA instead <a href="https://www.nature.com/articles/nature24031"> 2 </a>.</p>
 
-
-
-</div>
-
 </div>
 
 
+
+</div>
 
 <div class="clear extra_space"> 
 
@@ -86,25 +58,15 @@ title: Project 2019
 
 <h2>Inspiration behind the idea</h2>
 
-
-
 <p>The inspiration to our work came from reading about the latest advances in genetic code expansion. The Department of Biotechnology in Turku is heavily concentrated towards diagnostic development and therefore when our students were reading about expanded genetic code and the possibilities it provides in the field of site specific conjugations, it really did not take too long to come up with a simple and minimalistic, yet powerful idea of site-specific conjugation of antibodies for the use of immunoassays: This technology have already been used for immobilization of proteins <a href=https://pdfs.semanticscholar.org/a414/d2e600924dc685c3acdb7ab91e2bfa06fb31.pdf"> 5 </a> and modifying of therapeutic  antibodies <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6190509/"> 6 </a>. So why not combine these two in a very intuitive way?</p>
-
- 
 
 <p>The basic principle of using antibodies in diagnostic tools has been a cornerstone of the whole industry for decades now but the whole concept of antibody immobilization is a stochastic process which in turn means that basically the physico-chemical model of an immunoassay is at its best, a good guess.</p> 
 
-
-
 <p>Therefore the optimal performance of any immunoassay could be reached with a minimalistic approach that does not involve any other proteins such as streptavidin to bind antibodies into a sensor surface and still orient the antibodies correctly. This approach could be achieved by using two extremely convenient techniques: click-chemistry and genetic code expansion. This would lead to a more defined biosensors and open up new possibilities in optimizing them to suit the future needs of diagnostics <a href="https://avs.scitation.org/doi/10.1116/1.4978435"> 1 </a>.</p>
 
-
-
 </div>
 
 </div>
-
-
 
 <div class="column full_size">
 
@@ -122,12 +84,6 @@ title: Project 2019
 
 <p>6. Huang, Y. & Liu, T. (2018) Therapeutic applications of genetic code expansion. Synthetic and Systems Biotechnology <b>3:</b> 150-158. </p>
 
-
-
 </div>
-
-
-
-
 
 </html>
