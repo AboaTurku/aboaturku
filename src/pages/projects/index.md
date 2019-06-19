@@ -34,8 +34,6 @@ title: Project 2019
 
 <p><i><b>Figure 2.</b> Site specifically orientated binder antibodies. Because the azide group of the p-azido-L-phenylalanine reacts bio-orthogonally with an alkyne group forming a covalent bond, the antibody with the amino acid in its tail is forced on tail-on position allowing the paratopes to interact with the analytes. Modified from figure <a href=https://pubs.rsc.org/en/content/articlelanding/2013/AN/c2an36787d#!divAbstract"> 3 </a>.</i></p>
 
-
-
 </div>
 
 <div class="info box">
@@ -45,10 +43,6 @@ title: Project 2019
 <p>Expanded genetic code is a technique where one of an organism’s codons, for example a stop-codon, is reprogrammed to code for a ncAA <a href="https://www.nature.com/articles/nature24031"> 2 </a>.</p>
 
 <p>This includes replacing a desired codon throughout the genome with an analogous codon and adding an aminoacyl-tRNA synthetase recognizing the replaced codon to be able to introduce a ncAA instead <a href="https://www.nature.com/articles/nature24031"> 2 </a>.</p>
-
-</div>
-
-
 
 </div>
 
