@@ -6,9 +6,9 @@ description: 04/07/2019
 tags:
   - _
 ---
-## **Laboratory** 
+## **Laboratory**
 
- Past couple of weeks we have faced some difficulties.
+Past couple of weeks we have faced some difficulties.
 
 We have spent countless hours in the lab planning our next move and we eventually managed to achieve our goal: we got fluorescent colonies! This means we can finally continue to work towards our other targets. 
 
