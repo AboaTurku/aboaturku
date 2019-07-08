@@ -1,8 +1,10 @@
 ---
 templateKey: blog-post
 title: 2. Newsletter
-date: 2019-07-04T10:17:47.264Z
+date: 2019-07-03T10:17:00.000Z
 description: 31.03.2019
+tags:
+  - '#aboa'
 ---
 ## Hello,
 
