@@ -15,7 +15,7 @@ tags:
   - IDT
   - Gene synthesis
 ---
-We are advancing a lot at the moment. We finally were able to complete our work with GFP-TAG-RFP a biobrick <a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K567018">BBa_K567018</a>, which was a real pain to work with. However, the work really paid off and we were able to get good results from that line.
+We are advancing a lot at the moment. We finally were able to complete our work with GFP-TAG-RFP, a biobrick <a href="http://parts.igem.org/wiki/index.php?title=Part:BBa_K567018">BBa_K567018</a>, which was a real pain to work with. However, the work really paid off and we were able to get good results from that line.
 
 <img src="https://2019.igem.org/wiki/images/7/73/T--Aboa--Aboa_gfp-rfp-plate_160719.jpeg" style="width:648px;height:324px;">
 
@@ -27,4 +27,4 @@ If everything goes well with digoxigenin binder production and purification, we 
 
 We will receive dengue binder sequences from IDT this week and we will continue working with them with the cloning team. The work should go much smoother now that we have all the equipment ready and we know what pitfalls to avoid.
 
-**_\-Pyry and the rest of Lab Team_**
+_**\-Pyry and the rest of Lab Team**_
