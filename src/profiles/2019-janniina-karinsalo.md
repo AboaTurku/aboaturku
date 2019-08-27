@@ -3,6 +3,6 @@ templateKey: profile
 name: Janniina Karinsalo
 profilePicture: /img/Janniina_Karinsalo.jpg
 ---
-In iGEM she is part of marketing team and she will be working in the laboratory.
+In iGEM she has been taking care of the task management, while helping our science wizard to plan and execute lab work.
 
-**_Biotechnology / University of Turku_**
+_**Biotechnology / University of Turku**_
