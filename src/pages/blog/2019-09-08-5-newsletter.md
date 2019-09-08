@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 5 Newsletter
+title: 5. Newsletter
 date: 2019-09-08T16:22:59.813Z
 description: Aboa Newsletter September 8th 2019
 tags:
