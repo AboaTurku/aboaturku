@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 4. newsletter
+title: 4. Newsletter
 date: 2019-07-05T11:23:52.568Z
 description: 04/07/2019
 tags:
