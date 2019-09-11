@@ -4,4 +4,8 @@ title: Support Us
 ---
 ### Support Our Project
 
-Come back later to find information on how to support our project.
+Löydät ohjeet meidän tukemiseen alla olevasta linkistä:
+
+You can find instructions on how to support us from the link below:
+
+https://forms.gle/jJusVTUf8w6KUGsNA
