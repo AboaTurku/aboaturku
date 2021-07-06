@@ -14,7 +14,7 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="hero-body has-text-centered">
               <h1 className="title has-text-dark is-size-2">Aboa Turku</h1>
-              <h2 className="subtitle has-text-dark is-size-3">iGem 2019 Team</h2>
+              <h2 className="subtitle has-text-dark is-size-3">iGem 2021 Team</h2>
             </div>
           </div>
         </section>
