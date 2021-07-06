@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../img/textlogo.png'
+import logo from '../../static/img/textlogo21.png'
 import './navbar.sass'
 
 const Navbar = class extends React.Component {
@@ -58,8 +58,8 @@ const Navbar = class extends React.Component {
         <Link className="navbar-item" to="/partners">
           Partners
         </Link>
-        <Link className="navbar-item" to="/projects">
-          2019
+        <Link className="navbar-item" to="/oldProjects">
+          Old projects
         </Link>
         <Link className="navbar-item" to="/support">
           Support Us
