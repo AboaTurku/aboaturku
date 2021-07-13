@@ -1,5 +1,6 @@
 ---
 templateKey: profile
+teamYear: 2019
 name: Robin Kåll
 profilePicture: /img/Robin_Kåll.jpg
 ---

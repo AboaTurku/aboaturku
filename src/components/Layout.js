@@ -43,20 +43,26 @@ const TemplateWrapper = ({ children }) => (
           <nav className="level">
             <div className="level-left">
               <div className="level-item has-text-centerd">
-                <div>
-                  <h1 className="title is-spaced has-text-white">Contact Us</h1>
-                  <h1 className="subtitle has-text-white">
-                    <a className="email" href="mailto:turkuigem@gmail.com">turkuigem@gmail.com</a>
+                <div className="is-flex-direction-column-justify-content-space-between p-3"> 
+                  <div className="block">
+                  <h1 className="title is-spaced has-text-white" style={{padding: 2}}>Contact Us</h1>
+                  </div>
+                  <div className="block">
+                  <h1 className="subtitle has-text-white" style={{padding: 2}}>
+                    Email: <a className="email" href="mailto:turkuigem@gmail.com">turkuigem@gmail.com</a>
                   </h1>
+                  </div>
+                  <div className="is-flex-direction-row-align-items-center">
+                  <h1 className="subtitle has-text-white" style={{padding: 2}}>
+                    Instagram: <a href="https://instagram.com/igem.aboa" className="social-link" title="Follow us on Instagram">
+                    <img src={iglogo} alt="AboaTurku" style={{ width: '45px', position: 'relative'}} />
+                  </a>
+                  </h1>
+                  </div>
+                  </div>
                 </div>
               </div>
               <div className="level-item has-text-centerd">
-                <div>
-                  <a href="https://instagram.com/igem.aboa" className="social-link" title="Follow us on Instagram">
-                    <img src={iglogo} alt="AboaTurku" style={{ width: '64px' }} />
-                  </a>
-                </div>
-              </div>
             </div>
             <div className="level-right">
               

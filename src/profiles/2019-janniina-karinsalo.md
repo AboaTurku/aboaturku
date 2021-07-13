@@ -1,5 +1,6 @@
 ---
 templateKey: profile
+teamYear: 2019
 name: Janniina Karinsalo
 profilePicture: /img/Janniina_Karinsalo.jpg
 ---

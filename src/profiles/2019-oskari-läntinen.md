@@ -1,5 +1,6 @@
 ---
 templateKey: profile
+teamYear: 2019
 name: Oskari Läntinen
 profilePicture: /img/img_1417.jpg
 ---

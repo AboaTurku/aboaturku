@@ -1,5 +1,6 @@
 ---
 templateKey: profile
+teamYear: 2019
 name: Riku Pihlaja
 profilePicture: /img/Riku_Pihlaja.jpg
 ---

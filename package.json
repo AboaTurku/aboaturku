@@ -2,7 +2,7 @@
   "name": "aboa-turku-website",
   "description": "Website of Aboa Turku",
   "version": "1.0.0",
-  "author": "Matti Vapa",
+  "author": "Matti Vapa, Milja Lempinen",
   "dependencies": {
     "bulma": "^0.7.5",
     "fstream": "^1.0.12",

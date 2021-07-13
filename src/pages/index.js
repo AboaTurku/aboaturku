@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { edge: about } = data.allMarkdownRemark
 
     return (
       <Layout>
@@ -14,13 +14,21 @@ export default class IndexPage extends React.Component {
         <img alt="Archipelago" className="hero-background is-transparent" src="img/img_20210610_182834.jpg"/>
           <div className="container">
             <div className="hero-body has-text-centered">
-              <h1 className="title has-text-white is-size-2">Aboa Turku</h1>
-              <h2 className="subtitle has-text-white is-size-3">iGem 2021 Team</h2>
+              <h1 className="title has-text-white is-bold is-size-1">Aboa Turku</h1>
+              <h2 className="subtitle has-text-white is-size-2">iGEM 2021 Team</h2>
             </div>
           </div>
         </section>
         <section className="section">
           <div className="container">
+            <div className="content">
+              <h1 className="has-text-weight-bold is-size-2">Project 2021</h1>
+            </div>
+          </div>
+          <div>
+            {about}
+          </div>
+          {/*<div className="container">
             <div className="content">
               <h1 className="has-text-weight-bold is-size-2">Latest posts</h1>
             </div>
@@ -48,7 +56,7 @@ export default class IndexPage extends React.Component {
                   </p>
                 </div>
               ))}
-          </div>
+              </div> */}
         </section>
       </Layout>
     )
@@ -64,6 +72,27 @@ IndexPage.propTypes = {
 }
 
 export const pageQuery = graphql`
+  query IndexQuery {
+    allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "about-page" } }}
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            templateKey
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  }
+`
+
+/* export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] },
@@ -85,7 +114,7 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+` */
 
 /*
 <section className="hero is-info is-bold">
