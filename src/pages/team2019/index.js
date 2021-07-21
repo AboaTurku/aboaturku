@@ -15,7 +15,7 @@ const TeamPage2019 = ({data: {allMarkdownRemark: {edges}}}) => {
               </div>
             </section> 
             <section className="section">
-              
+
               </section>   
             <section className="section">
                 <div className="columns">
@@ -83,20 +83,6 @@ export const pageQuery = graphql`
               }
             }
           }
-        }
-      }
-    }
-  }
-  query Project19Query {
-    allMarkdownRemark(filter: {frontmatter: {title: {eq: "Project 2019"}, templateKey: {eq: "old"}}}) {
-      edges {
-        node {
-          id
-          frontmatter {
-            name
-            title
-          }
-          html
         }
       }
     }
