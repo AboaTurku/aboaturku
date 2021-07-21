@@ -46,7 +46,7 @@ export default PartnerPage;
 export const pageQuery = graphql`
   query PartnersQuery {
     allMarkdownRemark(
-      filter: {frontmatter: {templateKey: {eq: "partner"}}},
+      filter: {frontmatter: {templateKey: {eq: "partner"}, teamYear: {eq: 2021}}},
       sort: {fields: [frontmatter___sortorder], order: ASC}
       ) {
       edges {

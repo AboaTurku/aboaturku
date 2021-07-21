@@ -19,6 +19,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+
   - name: "pages"
     label: "Pages"
     files:
@@ -68,6 +69,7 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Logo", name: "logo", widget: "image"}
       - {label: "Link", name: "link", widget: "string"}
+      - {label: "Team Year", name: "teamYear", widget: "string"}
       - {label: "Sort Order", name: "sortorder", widget: "number", default: 1, valueType: "int"}
 
   - name: "old"
@@ -79,5 +81,5 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "old"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Team Year", name: "teamYear", widget: "int"}
+      - {label: "Team Year", name: "teamYear", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

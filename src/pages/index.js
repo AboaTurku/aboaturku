@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import {Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props
-    const { edge: about } = data.allMarkdownRemark
+    const { edges: about } = data.allMarkdownRemark
 
     return (
       <Layout>
@@ -25,9 +25,21 @@ export default class IndexPage extends React.Component {
               <h1 className="has-text-weight-bold is-size-2">Project 2021</h1>
             </div>
           </div>
-          <div>
-            {about}
+          <div className="container">
+          <figure className="image is-16by9" align="center" height="500">
+          <iframe 
+            class="has-ratio"
+            width="auto"
+            height="auto"
+            src="https://www.youtube.com/embed/_8Sb6X2NXUQ" 
+            title="YouTube video player" 
+            frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowFullScreen>
+            </iframe>
+          </figure>
           </div>
+          </section>
           {/*<div className="container">
             <div className="content">
               <h1 className="has-text-weight-bold is-size-2">Latest posts</h1>
@@ -56,8 +68,7 @@ export default class IndexPage extends React.Component {
                   </p>
                 </div>
               ))}
-              </div> */}
-        </section>
+              </div> */}        
       </Layout>
     )
   }
@@ -72,20 +83,17 @@ IndexPage.propTypes = {
 }
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query PageQuery {
     allMarkdownRemark(
       filter: { frontmatter: { templateKey: { eq: "about-page" } }}
     ) {
       edges {
         node {
-          id
           frontmatter {
             title
             templateKey
           }
-          fields {
-            slug
-          }
+          html
         }
       }
     }
