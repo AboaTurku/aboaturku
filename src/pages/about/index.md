@@ -2,6 +2,7 @@
 templateKey: about-page
 title: About Aboa and iGEM
 ---
+
 ![](/img/aboa-team-21.png)
 
 ### iGEM Aboa
