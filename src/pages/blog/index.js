@@ -56,6 +56,9 @@ export const blogPageQuery = graphql`
         node {
           html
           id
+          fields {
+            slug
+          }
           frontmatter {
             title
             templateKey
