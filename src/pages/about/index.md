@@ -2,18 +2,16 @@
 templateKey: about-page
 title: About Aboa and iGEM
 ---
-### Aboa
 
-Aboa is a multidisciplinary team of students from University of Turku and Åbo Akademi. We are participating in the [iGEM 2019 competition](http://igem.org/). Our team consists of 12 students with variety of backgrounds from medicine to economics.
+### iGEM Aboa
 
+iGEM Aboa 2021 is a team from the University of Turku competing in the international synthetic biology competition iGEM (International Genetically Engineered Machine). The objective of the iGEM is to carry out a research project that solves a current problem using the tools of synthetic biology. 
+Our team is multidisciplinary; it is composed of students studying biomedicine, biochemistry, biotechnology, chemistry and health technology at both bachelor’s and master’s degree levels. The students have full responsibility for the planning, implementation and funding of the project.
 
+### Our project
 
-We are improving immunological tests by incorporating a non-canonical amino acid to antibodies with expanded genetic code. With this amino acid we can orient antibodies correctly and increase the amount of available binding sites in the test surface.
+The aim of the iGEM Aboa 2021 project is to aid the situation of the Baltic Sea by contributing to the development of a microbial wastewater treatment system for the degradation of pharmaceutical waste. We will particularly focus on the nonsteroidal anti-inflammatory drug diclofenac, which causes major environmental stress when released into bodies of water. Our project will involve the degradation of diclofenac to a less harmful compound through the synthetic production of laccase enzymes in modified microbes.
 
-Join us to make the world a more sensitive place!
-
-### iGEM
-
-From the iGEM website
-
-> The International Genetically Engineered Machine (iGEM) Foundation is an independent, non-profit organization dedicated to education and competition, the advancement of synthetic biology, and the development of an open community and collaboration.
+### Our collaborations
+We have established a collaboration with the iGEM team from the University of Chicago, who are also applying the degrading function of laccases to wastewater treatment of pharmaceuticals.
+In addition, we are looking for other partners to enable the implementation of our project. If you are interested in a collaboration with us, please contact us through the email address provided on the bottom of the page.

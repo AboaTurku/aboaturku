@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/Layout'
+import { HTMLContent } from '../../components/Content'
+import { BlogPostTemplate } from '../../templates/blog-post'
 
 export default class BlogPage extends React.Component {
   render() {
@@ -19,20 +21,14 @@ export default class BlogPage extends React.Component {
                   style={{padding: '2em 4em' }}
                   key={post.id}
                 >
+                  <h1 className="is-bold">
+                    {post.frontmatter.title}
+                  </h1>
                   <p>
-                    <Link className="has-text-primary" to={post.fields.slug}>
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <small>{post.frontmatter.date}</small>
-                  </p>
-                  <p>
-                    {post.excerpt}
-                    <br />
-                    <br />
-                    <Link className="button is-small" to={post.fields.slug}>
-                      Keep Reading →
-                    </Link>
+                    <BlogPostTemplate 
+                        content={post.html}
+                        contentComponent={HTMLContent}
+                    ></BlogPostTemplate>
                   </p>
                 </div>
               ))}
@@ -54,12 +50,11 @@ BlogPage.propTypes = {
 export const blogPageQuery = graphql`
   query BlogQuery {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
+      filter: { frontmatter: { templateKey: { eq: "blog-post" }, title: {eq: "Project 2021"} }}
     ) {
       edges {
         node {
-          excerpt(pruneLength: 400)
+          html
           id
           fields {
             slug

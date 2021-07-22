@@ -1,5 +1,6 @@
 ---
 templateKey: profile
+teamYear: 2019
 name: Fanny Sundqvist
 profilePicture: /img/Fanny_Sundqvist.jpg
 ---

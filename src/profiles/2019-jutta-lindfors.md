@@ -1,5 +1,6 @@
 ---
 templateKey: profile
+teamYear: 2019
 name: Jutta Lindfors
 profilePicture: /img/Jutta_Lindfors.jpg
 ---

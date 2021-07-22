@@ -1,5 +1,6 @@
 ---
 templateKey: profile
+teamYear: 2019
 name: Ville Vapa
 profilePicture: /img/Ville_Vapa.jpg
 ---

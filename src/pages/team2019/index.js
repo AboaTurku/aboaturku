@@ -5,19 +5,26 @@ import Helmet from 'react-helmet'
 import ProfileCard from '../../components/ProfileCard'
 import Content, {HTMLContent} from '../../components/Content'
 
-
-const TeamPage = ({data: {allMarkdownRemark: {edges}}}) => {
+const TeamPage2019 = ({data: {allMarkdownRemark: {edges}}}) => {
     return (
         <Layout>
-            <Helmet title="Aboa - Team" />    
+            <section>
+            <Helmet title="Aboa - Team" />
+              <div className="column id-10 is-offset-1">
+                <h1 className="title is-size-2 has-text-weight-bold is-bold"> The project in 2019</h1>
+              </div>
+            </section> 
+            <section className="section">
+
+              </section>   
             <section className="section">
                 <div className="columns">
                     <div className="column is-10 is-offset-1">
                         <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                            Aboa Team 2021
+                            Aboa Team 2019
                         </h2>
                         <p>
-                          In 2021, the Aboa team is comprised of students of several disciplines. We are enthusiastic about participating in research
+                          In 2019, the Aboa team is comprised of students of several disciplines. We are enthusiastic about participating in research
                           to develop the next generation of biotechnical innovation.
                         </p>
                     </div>
@@ -43,15 +50,25 @@ const TeamPage = ({data: {allMarkdownRemark: {edges}}}) => {
                     </div>
                 </div>
             </section>
+            <section>
+            <div className="columns">
+                    <div className="column is-10 is-offset-1">
+                      <Content>
+                        {}
+                      </Content>
+                    </div>
+                </div>
+            </section>
         </Layout>
     )
 }
 
-export default TeamPage;
+export default TeamPage2019;
+
 
 export const pageQuery = graphql`
-  query Profiles21Query {
-    allMarkdownRemark(filter: {frontmatter: {teamYear: {eq: 2021}, templateKey: {eq: "profile"}}}) {
+  query Profiles19Query {
+    allMarkdownRemark(filter: {frontmatter: {teamYear: {eq: 2019}, templateKey: {eq: "profile"}}}) {
       edges {
         node {
           id

@@ -1,5 +1,6 @@
 ---
 templateKey: profile
+teamYear: 2019
 name: Pyry Niemelä
 profilePicture: /img/Pyry_Niemelä.jpg
 ---

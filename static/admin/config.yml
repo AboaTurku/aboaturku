@@ -19,6 +19,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+
   - name: "pages"
     label: "Pages"
     files:
@@ -52,6 +53,7 @@ collections:
     identifier_field: name
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "profile"}
+      - {label: "Team Year", name: "teamYear", widget: "string"}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Profile picture", name: "profilePicture", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -67,4 +69,17 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Logo", name: "logo", widget: "image"}
       - {label: "Link", name: "link", widget: "string"}
+      - {label: "Team Year", name: "teamYear", widget: "string"}
       - {label: "Sort Order", name: "sortorder", widget: "number", default: 1, valueType: "int"}
+
+  - name: "old"
+    label: "Old"
+    folder: "src/oldProjects"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    identifier_field: name
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "old"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Team Year", name: "teamYear", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

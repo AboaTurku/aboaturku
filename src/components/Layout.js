@@ -26,7 +26,7 @@ const TemplateWrapper = ({ children }) => (
           <title>{data.site.siteMetadata.title}</title>
           <meta name="description" content={data.site.siteMetadata.description} />
           
-          <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon-152x152.png" />
+          <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon.png" />
 	        <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
 	        <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
 	
@@ -43,23 +43,31 @@ const TemplateWrapper = ({ children }) => (
           <nav className="level">
             <div className="level-left">
               <div className="level-item has-text-centerd">
-                <div>
-                  <h1 className="title is-spaced has-text-white">Contact Us</h1>
-                  <h1 className="subtitle has-text-white">
-                    <a className="email" href="mailto:turkuigem@gmail.com">turkuigem@gmail.com</a>
+                <div className="is-flex-direction-column-justify-content-space-between p-3"> 
+                  <div className="block">
+                  <h1 className="title is-spaced has-text-white" style={{padding: 2}}>Contact Us</h1>
+                  </div>
+                  <div className="block">
+                  <h1 className="subtitle has-text-white" style={{padding: 2}}>
+                    Email: <a className="email" href="mailto:turkuigem@gmail.com">turkuigem@gmail.com</a>
                   </h1>
+                  </div>
+                  <div className="is-flex-direction-row-align-items-center">
+                  <h1 className="subtitle has-text-white" style={{padding: 2}}>
+                    Instagram: <a href="https://instagram.com/igem.aboa" 
+                                  className="social-link has-text-white" 
+                                  title="Follow us on Instagram"
+                                  target="_blank">
+                                @igem.aboa
+                                </a>
+                  </h1>
+                  </div>
+                  </div>
                 </div>
               </div>
               <div className="level-item has-text-centerd">
-                <div>
-                  <a href="https://instagram.com/igem.aboa" className="social-link" title="Follow us on Instagram">
-                    <img src={iglogo} alt="AboaTurku" style={{ width: '64px' }} />
-                  </a>
-                </div>
-              </div>
             </div>
             <div className="level-right">
-              
             </div>
           </nav>
         </footer>

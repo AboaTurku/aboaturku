@@ -1,5 +1,6 @@
 ---
 templateKey: profile
+teamYear: 2019
 name: Gustav Malmström
 profilePicture: /img/Gustav_Malmström.jpg
 ---

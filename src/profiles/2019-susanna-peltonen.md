@@ -1,5 +1,6 @@
 ---
 templateKey: profile
+teamYear: 2019
 name: Susanna Peltonen
 profilePicture: /img/Susanna_Peltonen.jpg
 ---
