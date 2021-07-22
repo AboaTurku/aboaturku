@@ -54,9 +54,12 @@ const TemplateWrapper = ({ children }) => (
                   </div>
                   <div className="is-flex-direction-row-align-items-center">
                   <h1 className="subtitle has-text-white" style={{padding: 2}}>
-                    Instagram: <a href="https://instagram.com/igem.aboa" className="social-link" title="Follow us on Instagram">
-                    <img src={iglogo} alt="AboaTurku" style={{ width: '45px', position: 'relative'}} />
-                  </a>
+                    Instagram: <a href="https://instagram.com/igem.aboa" 
+                                  className="social-link has-text-white" 
+                                  title="Follow us on Instagram"
+                                  target="_blank">
+                                @igem.aboa
+                                </a>
                   </h1>
                   </div>
                   </div>
@@ -65,7 +68,6 @@ const TemplateWrapper = ({ children }) => (
               <div className="level-item has-text-centerd">
             </div>
             <div className="level-right">
-              
             </div>
           </nav>
         </footer>

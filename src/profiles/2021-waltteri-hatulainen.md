@@ -1,6 +1,6 @@
 ---
 templateKey: profile
-teamYear: '2021'
+teamYear: 2021
 name: Waltteri Hatulainen
 profilePicture: /img/waltteri-hatulainen.png
 ---

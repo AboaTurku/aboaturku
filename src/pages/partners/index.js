@@ -26,7 +26,7 @@ const PartnerPage = ({data: {allMarkdownRemark: {edges}}}) => {
                     <div className="column is-10 is-offset-1">
                         <div className="tile is-ancestor partners">
                         {edges.map(
-                            ({node: {id, html, frontmatter : {name, logo, link}}}) => (
+                            ({node: {id, frontmatter : {name, logo, link}}}) => (
                                 <div key={id} className="tile is-parent partner-wrapper">
                                     <Partner name={name} logo={logo} link={link} />
                                 </div>
@@ -52,7 +52,6 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          html
           frontmatter {
             name
             logo {

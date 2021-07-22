@@ -3,8 +3,6 @@ templateKey: about-page
 title: About Aboa and iGEM
 ---
 
-![](/img/aboa-team-21.png)
-
 ### iGEM Aboa
 
 iGEM Aboa 2021 is a team from the University of Turku competing in the international synthetic biology competition iGEM (International Genetically Engineered Machine). The objective of the iGEM is to carry out a research project that solves a current problem using the tools of synthetic biology. 

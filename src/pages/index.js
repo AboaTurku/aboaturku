@@ -22,12 +22,17 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
         <section className="section">
-          <div className="container">
-            <div className="content">
+          <div className="container" align="center">
+            <img src="/img/aboa-team-21.png"/>
+          </div>
+        </section>
+        <section>
+          {/*<div className="container">
+            <div className="content has-text-centered">
               <h1 className="has-text-weight-bold is-size-2">Project 2021</h1>
             </div>
-          </div>
-          <div className="container">
+          </div>*/}
+          <div className="container mb-3">
             {posts
               .map(({ node: post }) => (
                 <div
@@ -44,6 +49,8 @@ export default class IndexPage extends React.Component {
                 </div>
               ))}
           </div>
+        </section>
+        <section className="section">
           <div className="container">
           <figure className="image is-16by9" align="center" height="500">
           <iframe 
