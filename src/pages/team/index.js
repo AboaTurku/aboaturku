@@ -42,6 +42,10 @@ const TeamPage = ({data: {allMarkdownRemark: {edges}}}) => {
                         </div>
                     </div>
                 </div>
+                <div className="column is-10 is-offset-1">
+                  <h3 className="title is-size-5 has-text-weight-medium">Primary Instructor: Pauli Kallio (UTU)</h3>
+                  <h3 className="title is-size-5 has-text-weight-medium">Advisor: Hariharan Dandapani (UTU)</h3>
+                </div>
             </section>
         </Layout>
     )

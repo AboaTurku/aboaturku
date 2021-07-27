@@ -12,8 +12,8 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <section className="frontpage-hero hero is-bold is-info is-medium has-background">
-        <img alt="Archipelago" className="hero-background is-transparent" src="img/img_20210610_182834.jpg"/>
+        <section className="frontpage-hero hero is-bold is-medium has-background">
+        <img alt="Archipelago" className="hero-background is-transparent" src="img/saaristotausta.jpg"/>
           <div className="container">
             <div className="hero-body has-text-centered">
               <h1 className="title has-text-white is-bold is-size-1">Aboa Turku</h1>
