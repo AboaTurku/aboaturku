@@ -23,7 +23,7 @@ export default class IndexPage extends React.Component {
         </section>
         <section className="section">
           <div className="container" align="center">
-            <img src="/img/aboa-team-21.png"/>
+            <img src="/img/2g8a2388.jpg"/>
           </div>
         </section>
         <section>
