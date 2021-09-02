@@ -6,4 +6,4 @@ profilePicture: /img/malin-eriksson.png
 ---
 Biochemistry, BSc
 
-Student team leader, Head of wet lab    
+Student team leader, Head of Wet Lab    

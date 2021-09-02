@@ -6,4 +6,4 @@ profilePicture: /img/laura-hamdi.png
 ---
 Chemistry, MSc
 
-Head of human practices
+Head of Human Practices
