@@ -6,4 +6,4 @@ profilePicture: /img/waltteri-hatulainen.png
 ---
 Biochemistry, BSc
 
-Head of visual design
+Head of Photography and Videography

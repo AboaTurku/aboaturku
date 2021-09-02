@@ -67,6 +67,9 @@ const Navbar = class extends React.Component {
       <Link className="navbar-item" to="/suomeksi"> 
           Suomeksi
       </Link>
+      <Link className="navbar-item" to="/rekry"> 
+          Aboa 2022
+      </Link>
       </div>
       </div>
     </div>

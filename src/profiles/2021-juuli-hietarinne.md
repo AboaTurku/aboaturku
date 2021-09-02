@@ -6,4 +6,4 @@ profilePicture: /img/juuli-hietarinne.png
 ---
 Biomedicine, BSc
 
-Active team member
+Head of Visual Design and Wiki
