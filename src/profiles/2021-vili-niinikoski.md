@@ -1,6 +1,6 @@
 ---
 templateKey: profile
-teamYear: "0000"
+teamYear: "2021"
 name: Vili Niinikoski
 profilePicture: /img/vili-niinikoski.png
 ---
