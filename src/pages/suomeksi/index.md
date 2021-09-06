@@ -21,3 +21,5 @@ Etsimme myös muita yhteistyökumppaneita, jotta projektimme olisi mahdollista t
 [Aboa-joukkue pelastamassa Itämerta tieteen keinoin](https://itameripaiva.fi/teot/aboa-joukkue-pelastamassa-itamerta-tieteen-keinoin/ "Itämeripäivä") 
 
 [Turun yliopiston mediatiedote](https://www.utu.fi/fi/ajankohtaista/mediatiedote/turun-yliopiston-opiskelijat-pelastamassa-itamerta-kansainvalisen "utu.fi") 
+
+[Turun Sanomat 3.9.2021](https://www.ts.fi/teemat/5414405/Turkulaiset+300+joukkueen+tiedekisaan+Itameriteemalla++miten+hajottaa+vesielioille+haitallisia+laakejaamia "ts.fi") (Maksumuuri)
