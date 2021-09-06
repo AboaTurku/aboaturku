@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Aboa - iGEM 2019 Team of University of Turku',
-    description: 'Website of Aboa - University of Turku team for iGEM 2019 .',
+    title: 'Aboa - iGEM 2021 Team of University of Turku',
+    description: 'Website of Aboa - University of Turku team for iGEM 2021 .',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
