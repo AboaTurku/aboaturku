@@ -6,4 +6,4 @@ profilePicture: /img/tiia-ylikangas.png
 ---
 Chemistry, MSc
 
-Student team leader
+Active team member
