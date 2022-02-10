@@ -24,7 +24,7 @@
     "lodash": "^4.17.21",
     "lodash-webpack-plugin": "^0.11.6",
     "netlify-cms": "^2.10.148",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "parcel-bundler": "^1.12.3",
     "postcss": "^8.3.6",
     "prop-types": "^15.7.2",
